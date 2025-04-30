@@ -3,7 +3,7 @@ Void setup()
  (12, OUTPUT);
  pinMode=(13, OUTPUT);
  }
- void loop()
+ void loop() {
  int s1-analogRead(40);
  Serial.println(s1);
  delay(200);
@@ -12,7 +12,7 @@ Void setup()
  digitalWrite(12,LOW);
  digitalWrite(13, LOW);
  }
- else
+ else {
  digitalwrite(12, HIGH);
  digitale ite(13, HIGH);
  }

@@ -12,7 +12,7 @@ Void loop()
 
 {
 
-erial.println("HIGH");
+serial.println("HIGH");
 
 digitalWrite(2.1),
 
