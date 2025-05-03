@@ -1,6 +1,6 @@
 # asks the user for a number and output the number squared that is entered
 
-##  See Code here : https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr8.c
+##  See Code here : https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr8code.c
 
 ## Connections : _there are no connections_
 ## _Use Arduino Uno board as a computer to calculate the output_
