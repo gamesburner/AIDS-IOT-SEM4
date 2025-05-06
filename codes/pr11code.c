@@ -1,27 +1,41 @@
-feat mintemp; 
-foat maxtemp; 
-bool initialtemp true; 
-void setup(){ 
-Serial.begin(9600); 
-void loop(){ 
-int raw analogRead(A0); 
-float volt=raw * 4.88; 
-float temp= volt/10: 
-float fare =(temp * 1.8) + 32.0; 
-Serial.println("Temperature in Fahrenheit:"); 
-Serial.println(fare); 
-Delay(1000); 
-if(initialtemp) 
-{ 
-mintemp =maxtemp = fare: 
-initialtemp false; 
-} 
-Else{ 
-if (fare > maxtemp) 
-maxtemp fare: 
-} 
-if (faremintemp) 
-{ 
-mintemp fare; } } Serial.println("MAXIMUM TEMPERATURE:"); Serial.println(maxtemp);
- Serial.println("MINIMUM TEMPERATURE:"); Serial.println(mintemp); 
-} 
+float mintemp;  
+float maxtemp;  
+bool initialtemp = true;  
+ 
+void setup() 
+{  
+  Serial.begin(9600);  // Initialize the serial communication 
+}  
+ 
+void loop() 
+{  
+  int raw = analogRead(A0);  // Read the analog value from pin A0 
+  float volt = raw * (5.0 / 1023.0);  // Convert raw reading to voltage 
+  float temp = volt * 100.0;  // Convert voltage to temperature in Celsius (assuming a 10mV per degree sensor) 
+  float fare = (temp * 1.8) + 32.0;  // Convert Celsius to Fahrenheit 
+   
+  Serial.print("Temperature in Fahrenheit: "); 
+  Serial.println(fare);  
+   
+  if (initialtemp)  
+  {  
+    mintemp = maxtemp = fare;  // Initialize the min and max temperatures 
+    initialtemp = false;  
+  }  
+  else 
+  {  
+    if (fare > maxtemp)  
+      maxtemp = fare;  // Update maximum temperature 
+     
+    if (fare < mintemp)  
+      mintemp = fare;  // Update minimum temperature 
+  } 
+ 
+  Serial.print("MAXIMUM TEMPERATURE: "); 
+  Serial.println(maxtemp); 
+   
+  Serial.print("MINIMUM TEMPERATURE: "); 
+  Serial.println(mintemp); 
+   
+  delay(1000);  // Wait for a second before the next reading 
+}
