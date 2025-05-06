@@ -3,5 +3,8 @@
 ## See Code here :
 (https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr11code.c)
 
-## Connections :
-![Screenshot 2025-04-30 095947](https://github.com/user-attachments/assets/27801c48-e55c-484f-9023-96112ebdc4e5)
+## Connections : (same design as pr10 but diff in code)
+![Screenshot 2025-05-06 223842](https://github.com/user-attachments/assets/524901ea-6061-456b-b1cc-733ed920f2f9)
+
+## Design in Full :
+![pr10](https://github.com/user-attachments/assets/c4e96498-0980-4067-8053-753e8ab58578)
