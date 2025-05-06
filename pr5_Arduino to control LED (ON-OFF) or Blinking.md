@@ -4,5 +4,6 @@
 ## See Code here :
 (https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr5code.c)
 ## Connections :
-
- ![p5](https://github.com/user-attachments/assets/45a20c2a-23a8-4380-899d-df4af09907b6)
+Resistor value : 300 ~ 330 ohm 
+ 
+![pr 5 Arduino-LED-Blink jpg](https://github.com/user-attachments/assets/b22837b2-d5e0-49b5-b2be-7dec625bcb05)
