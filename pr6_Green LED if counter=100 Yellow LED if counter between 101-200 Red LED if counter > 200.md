@@ -2,4 +2,7 @@
 ## See Code here:
 (https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr6code.c)
 ## Connections:
-![p6](https://github.com/user-attachments/assets/00e5324e-f0f9-43a7-995d-3132b307464d)
+![Screenshot 2025-05-06 162353](https://github.com/user-attachments/assets/170b010f-4f71-4496-837d-93c07fe3c040)
+
+## Design in Full :
+![pr6](https://github.com/user-attachments/assets/f97270e3-df0f-4980-b0cc-4b23e0a5c4cb)
