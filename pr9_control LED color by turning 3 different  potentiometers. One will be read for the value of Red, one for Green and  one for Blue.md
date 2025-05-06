@@ -4,4 +4,8 @@
 (https://github.com/gamesburner/AIDS-IOT-SEM4/blob/main/codes/pr9code.c)
 
 ## Connections :
-![Screenshot 2025-04-30 093659](https://github.com/user-attachments/assets/7c751cd2-3a53-43fd-b814-ece5e4129e50)
+
+![Screenshot 2025-05-06 220757](https://github.com/user-attachments/assets/c4dacc3d-8e9f-45cf-93f8-0253f01ddd8a)
+
+## Design in Full :
+![pr9](https://github.com/user-attachments/assets/27c2757b-cff6-425b-9139-2af254b6fecb)
